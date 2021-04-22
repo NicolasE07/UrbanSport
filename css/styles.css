@@ -1,0 +1,108 @@
+body{
+    font-family: 'Commissioner', sans-serif;;
+}
+/* imagen de fondo */
+#hero{
+    background-image: url('../imagenes/bmx-5142643_1920.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 600px;
+    color: #FF4233;
+}
+#hero p{
+    color: black;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+.btn_empezar{
+    padding: 14px 26px;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 160px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.btn-dark{
+    background-color: #343a40;
+    color: white;
+    border-color:2px solid black;
+
+}
+
+
+
+h1{
+    font-size: 66px ;
+    font-weight: 600;
+    line-height: 80px;
+}
+.ion-icon{
+    margin-left: 5px;
+}
+/* centrar el texto que esta encima de la imagen del inicio */
+.content-center{
+    max-width: 800px;
+    margin: 85px auto 60px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .content-center{
+        margin: 45px auto 45px auto;
+
+        
+    }
+    h1{
+        font-size: 55px;
+    }
+    .btn_empezar{
+        min-width: 100px;
+        padding: 12px 24px;
+        font-size: 15px;
+        margin-top: 25px;
+
+    }
+    
+}
+@media screen and (max-width: 488px) {
+    .content-center{
+        margin: 10px auto 45px auto;
+
+        
+    }
+    h1{
+        font-size: 55px;
+    }
+    .btn_empezar{
+        min-width: 100px;
+        padding: 12px 24px;
+        font-size: 15px;
+        margin-top: 25px;
+
+    }
+    
+}
+@media screen and (max-width: 370px) {
+    .content-center{
+        margin: 0px auto 60px auto;
+
+        
+    }
+    h1{
+        font-size: 47px;
+    }
+    .btn_empezar{
+        min-width: 100px;
+        padding: 12px 24px;
+        font-size: 15px;
+        margin-top: 25px;
+
+    }
+    
+}
